@@ -21,4 +21,10 @@ npm run dev      # desarrollo
 npm run build    # genera dist/ para publicar en cualquier hosting estático
 ```
 
-`dist/` se puede publicar gratis en GitHub Pages, Netlify o Vercel. Desde el celular, "Agregar a pantalla de inicio" la deja como app.
+## Publicación (GitHub Pages)
+
+Cada cambio en la rama principal se publica solo con `.github/workflows/deploy.yml`.
+
+Única vez: en GitHub, **Settings → Pages → Build and deployment → Source: GitHub Actions**. Después, en la pestaña **Actions**, volvé a correr "Publicar en GitHub Pages" (o subí cualquier cambio).
+
+La app queda en **https://arch-loop.github.io/ALBA/**. Desde el celular, abrila y elegí "Agregar a pantalla de inicio" para usarla como app.
